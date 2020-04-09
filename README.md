@@ -25,6 +25,7 @@ Also enable 1-Wire if you need it, or be sure it is disabled if you want to use 
 
 Run the following commands to download and install the Iono Pi utility: 
 
+    $ sudo apt-get update
     $ sudo apt-get install git-core 
     $ git clone https://github.com/sfera-labs/iono-pi-c-lib.git 
     $ cd iono-pi-c-lib 
@@ -35,6 +36,6 @@ Run the following commands to download and install the Iono Pi utility:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTMwMTYxNiwtMTI1OTU4OTUxMSwtMT
+eyJoaXN0b3J5IjpbLTc0NzIzMTA1NCwtMTI1OTU4OTUxMSwtMT
 A3MzM3MDU2NSwtOTQwMjQ0M119
 -->
