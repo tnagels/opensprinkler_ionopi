@@ -12,10 +12,10 @@ Then, on the SD-card edit the /boot/config.txt file and add the following:
     gpio=16,19,13,12,6,5=ip,pn
     dtoverlay=act-led,gpio=7
     dtparam=pwr_led_trigger=heartbeat
-The first command is needed for proper operation of the inputs, the second sets the activity led to the front green led of IonoPi
+The first command is needed for proper operation of the inputs, the second sets the activity led to the front green led of IonoPi. The third changes the function of the activity led to "heartbeat" which gives a clearer indication of how hard your Pi is working.
     
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODA2OTU4NSwtMTA3MzM3MDU2NSwtOT
-QwMjQ0M119
+eyJoaXN0b3J5IjpbLTEyNTk1ODk1MTEsLTEwNzMzNzA1NjUsLT
+k0MDI0NDNdfQ==
 -->
