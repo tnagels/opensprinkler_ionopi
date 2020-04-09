@@ -24,6 +24,7 @@ You should enable the SPI interface to use the Iono analog to digital converter,
     $ sudo raspi-config
 
 **This is a good time to change your RPI password, it's the first item in the list for a reason!**
+Second thing
 Then go to “Interfacing Options”, “SPI” and select “yes” to enable the SPI interface, and enable SSH for remote access (This is why you must change your password!). Also enable "I2C", we will need it later.
 Also enable 1-Wire if you need it, or be sure it is disabled if you want to use TTL1 for other purposes. Exit the tool and choose to reboot your RPI when prompted.
 
@@ -57,6 +58,6 @@ Now the RPI will reboot and the RTC should be active.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDQxMTY1NywtNzQ3MjMxMDU0LC0xMj
-U5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
+eyJoaXN0b3J5IjpbNzg5ODg1OTU1LC03NDcyMzEwNTQsLTEyNT
+k1ODk1MTEsLTEwNzMzNzA1NjUsLTk0MDI0NDNdfQ==
 -->
