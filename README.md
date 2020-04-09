@@ -71,8 +71,23 @@ If the returned date and time is not correct, or “hwclock” returns an error,
 
 Then recheck the time stored in the hardware clock to ensure it matches. Linux may have failed to automatically update the hardware clock after the last reboot if its internal registers contained invalid values.
 ## Installing OpenSprinkler
+-  `sudo su`  
+    so you don’t have to `sudo` for every command.
+-   Change directory to /usr/local  
+    `cd /usr/local`
+-   Clone the OpenSprinkler firmware repository.  
+    This will create a directory in /usr/local called OpenSprinkler.  
+    `git clone https://github.com/OpenSprinkler/OpenSprinklerGen2](https://github.com/OpenSprinkler/OpenSprinklerGen2)` `OpenSprinkler`
+-   Go into the OpenSprinkler directory and build the firmware.  
+    `cd OpenSprinkler  
+    ./build.sh`
+-   The build script will ask if you want to run the software on startup, answer yes. If it compiles ok, you should have an executable `/usr/local/OpenSprinkler/OpenSprinkler`ready to go. Go ahead and run the executable to test it. Press control-C to exit.
+-   Reboot your Pi and OpenSprinkler should be started automatically. You can test with  
+    `pgrep OpenSprinkler  
+    `If it returns the process id number, then OpenSprinkler was started automatically and is running. If it returns nothing, then something went wrong; check the previous steps.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5NTY4MjE5LDE5MjQzODQyNDcsNTQ1OD
-ExMjQ3LDEyNTkxNjAwODQsMTg3ODM0Mjk3MCwtNzQ3MjMxMDU0
-LC0xMjU5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
+eyJoaXN0b3J5IjpbLTIwODAxNjk2MTMsMTkyNDM4NDI0Nyw1ND
+U4MTEyNDcsMTI1OTE2MDA4NCwxODc4MzQyOTcwLC03NDcyMzEw
+NTQsLTEyNTk1ODk1MTEsLTEwNzMzNzA1NjUsLTk0MDI0NDNdfQ
+==
 -->
