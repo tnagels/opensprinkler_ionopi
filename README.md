@@ -23,14 +23,12 @@ You should enable the SPI interface to use the Iono analog to digital converter,
 
     $ sudo raspi-config
 
- - **This is a good time to change your RPI password, it's the first item in the list for a reason!**
- - Second thing to check is your timezone. So go into "Localisation options" and set the timezone to your location.
- - GO into "Network Options" and set your hostname to whatever you want. If you need to set a fixed IP or connect to a wireless network, you can do this here.
- - Then go to “Interfacing Options”, and enable follwing interfaces
-	 5. 
- - List item
-
-“SPI” and select “yes” to enable the SPI interface. Also enable "SSH" for remote access (This is why you must change your password!). Finally enable "I2C", we will need it later.
+ 1. **This is a good time to change your RPI password, it's the first item in the list for a reason!**
+ 2. Second thing to check is your timezone. So go into "Localisation options" and set the timezone to your location.
+ 3. GO into "Network Options" and set your hostname to whatever you want. If you need to set a fixed IP or connect to a wireless network, you can do this here.
+ 4. Then go to “Interfacing Options”, and enable follwing interfaces
+	a. “SPI” for the analog inputs.
+	Also enable "SSH" for remote access (This is why you must change your password!). Finally enable "I2C", we will need it later.
 Also enable 1-Wire if you need it, or be sure it is disabled if you want to use TTL1 for other purposes. Exit the tool and choose to reboot your RPI when prompted.
 
 Run the following commands to download and install the Iono Pi utility: 
@@ -71,6 +69,6 @@ If the returned date and time is not correct, or “hwclock” returns an error,
 Then recheck the time stored in the hardware clock to ensure it matches. Linux may have failed to automatically update the hardware clock after the last reboot if its internal registers contained invalid values.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NjMzNzQxLC03NDcyMzEwNTQsLTEyNT
-k1ODk1MTEsLTEwNzMzNzA1NjUsLTk0MDI0NDNdfQ==
+eyJoaXN0b3J5IjpbMTQ1MTk4MTY3MSwtNzQ3MjMxMDU0LC0xMj
+U5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
 -->
