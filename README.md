@@ -33,10 +33,24 @@ Run the following commands to download and install the Iono Pi utility:
     $ sudo sh build
 You can run the `iono` command without oprtions to see what tools are available.
 ### Real-time clock
+To install the “i2c-tools” package: 
+
+    $ sudo apt-get update 
+    $ sudo apt-get install i2c-tools 
+
+With these prerequisite installs completed, you should download and run Iono Pi’s RTC installation script: 
+
+    $ cd 
+    $ wget http://sferalabs.cc/files/strato/rtc-install 
+    $ chmod 755 rtc-install 
+    $ sudo ./rtc-install 
+
+If the script completes with no errors, delete the installation script and reboot: $ rm rtc-install $ sudo reboot
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwODcxNDQsLTc0NzIzMTA1NCwtMTI1OT
-U4OTUxMSwtMTA3MzM3MDU2NSwtOTQwMjQ0M119
+eyJoaXN0b3J5IjpbLTE3MjczMjA3MjEsLTc0NzIzMTA1NCwtMT
+I1OTU4OTUxMSwtMTA3MzM3MDU2NSwtOTQwMjQ0M119
 -->
