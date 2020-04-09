@@ -9,8 +9,9 @@ The main advantage of the Iono Pi is that it already has "hardened" I/O which ma
 I installed the standard Raspbian Lite using the [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/).
 Then, on the SD-card edit the /boot/config.txt file and add the following:
 
-    enter code here
+    gpio=16,19,13,12,6,5=ip,pn
+    
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzE3NDEwNDEsLTk0MDI0NDNdfQ==
+eyJoaXN0b3J5IjpbLTEwNzMzNzA1NjUsLTk0MDI0NDNdfQ==
 -->
