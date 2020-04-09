@@ -15,12 +15,13 @@ Then, on the SD-card edit the /boot/config.txt file and add the following:
 The first command is needed for proper operation of the inputs, the second sets the activity led to the front green led of IonoPi. The third changes the function of the activity led to "heartbeat" which gives a clearer indication of how hard your Pi is working.
 Put the SD-card in your Pi and boot it for the first time.
 ## Installing Iono Pi utilities
+### I/O tools
 You should enable the SPI interface to use the Iono analog to digital converter, and 1-Wire support if you need to connect 1-Wire devices. To enable SPI, run the “raspi-config” configuration utility: 
 
     $ sudo raspi-config
 
 **This is a good time to change your RPI password, it's the first item in the list for a reason!**
-Then go to “Interfacing Options”, “SPI” and select “yes” to enable the SPI interface, and enable SSH for remote access (This is why you must change your password!). 
+Then go to “Interfacing Options”, “SPI” and select “yes” to enable the SPI interface, and enable SSH for remote access (This is why you must change your password!). Also enable "
 Also enable 1-Wire if you need it, or be sure it is disabled if you want to use TTL1 for other purposes. Exit the tool and choose to reboot your RPI when prompted.
 
 Run the following commands to download and install the Iono Pi utility: 
@@ -31,12 +32,11 @@ Run the following commands to download and install the Iono Pi utility:
     $ cd iono-pi-c-lib 
     $ sudo sh build
 You can run the `iono` command without oprtions to see what tools are available.
-
-
+### Real-time clock
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjc1MDYwNSwtNzQ3MjMxMDU0LC0xMj
+eyJoaXN0b3J5IjpbMTcyOTg0NDU3MSwtNzQ3MjMxMDU0LC0xMj
 U5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
 -->
