@@ -30,12 +30,13 @@ Run the following commands to download and install the Iono Pi utility:
     $ git clone https://github.com/sfera-labs/iono-pi-c-lib.git 
     $ cd iono-pi-c-lib 
     $ sudo sh build
-    
+You can run the `iono` command without oprtions to see what tools are available.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzIzMTA1NCwtMTI1OTU4OTUxMSwtMT
-A3MzM3MDU2NSwtOTQwMjQ0M119
+eyJoaXN0b3J5IjpbMTAyMjc1MDYwNSwtNzQ3MjMxMDU0LC0xMj
+U5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
 -->
