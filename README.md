@@ -16,18 +16,21 @@ The first command is needed for proper operation of the inputs, the second sets 
 Put the SD-card in your Pi and boot it for the first time.
 ## Installing Iono Pi utilities
 You should enable the SPI interface to use the Iono analog to digital converter, and 1-Wire support if you need to connect 1-Wire devices. To enable SPI, run the “raspi-config” configuration utility: 
-`$ sudo raspi-config` 
+
+    $ sudo raspi-config
+
 Then go to “Advanced Options” (or “Interfacing Options” with the latest Raspbian builds), “SPI” and select “yes” to enable the SPI interface, then reboot your Raspberry Pi. 
 Also enable 1-Wire if you need it, or be sure it is disabled if you want to use TTL1 for other purposes. Run the following commands to download and install the Iono Pi utility: 
 
     $ sudo apt-get install git-core 
     $ git clone https://github.com/sfera-labs/iono-pi-c-lib.git 
     $ cd iono-pi-c-lib $ sudo sh build
-
     
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMDYwMDk4LC0xMjU5NTg5NTExLC0xMD
-czMzcwNTY1LC05NDAyNDQzXX0=
+eyJoaXN0b3J5IjpbLTIwNjM4NDczNCwtMTI1OTU4OTUxMSwtMT
+A3MzM3MDU2NSwtOTQwMjQ0M119
 -->
