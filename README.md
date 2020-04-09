@@ -7,6 +7,10 @@ You need an [Iono Pi](https://www.sferalabs.cc/product/iono-pi/), the version I 
 The main advantage of the Iono Pi is that it already has "hardened" I/O which makes interfacing it to the sensors and actuators very easy.
 ## Operating system & configuration
 I installed the standard Raspbian Lite using the [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/).
+Then, on the SD-card edit the /boot/config.txt file and add the following:
+
+    enter code here
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NzM4NDYsLTk0MDI0NDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NzE3NDEwNDEsLTk0MDI0NDNdfQ==
 -->
