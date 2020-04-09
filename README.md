@@ -1,7 +1,7 @@
 # opensprinkler_ionopi
 Implementation of OpenSprinkler on an Iono Pi
 ## Introduction
-Information here was compiled from the [Iono Pi User Guide](https://www.sferalabs.cc/files/ionopi/doc/ionopi-user-guide.pdf) and [these installation instructions](https://rayshobby.net/mediawiki/index.php/Set_Up_RPi,_RTC,_WiFi,_Data_Log).
+Information here was compiled from the [Iono Pi User Guide](https://www.sferalabs.cc/files/ionopi/doc/ionopi-user-guide.pdf) and [instructions found here](https://www.hackster.io/Ryan33/raspberry-pi-web-page-based-sprinkler-controller-00d26f).
 ## Hardware
 You need an [Iono Pi](https://www.sferalabs.cc/product/iono-pi/), the version I used is the one withan RPI 3B+ because I had it lying around. You can also use newer versions, but beware; some of the instructions will probably change for the RPI 4.
 
@@ -71,7 +71,7 @@ If the returned date and time is not correct, or “hwclock” returns an error,
 Then recheck the time stored in the hardware clock to ensure it matches. Linux may have failed to automatically update the hardware clock after the last reboot if its internal registers contained invalid values.
 ## Installing OpenSprinkler
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1ODExMjQ3LDEyNTkxNjAwODQsMTg3OD
-M0Mjk3MCwtNzQ3MjMxMDU0LC0xMjU5NTg5NTExLC0xMDczMzcw
-NTY1LC05NDAyNDQzXX0=
+eyJoaXN0b3J5IjpbMTkyNDM4NDI0Nyw1NDU4MTEyNDcsMTI1OT
+E2MDA4NCwxODc4MzQyOTcwLC03NDcyMzEwNTQsLTEyNTk1ODk1
+MTEsLTEwNzMzNzA1NjUsLTk0MDI0NDNdfQ==
 -->
