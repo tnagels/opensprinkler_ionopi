@@ -37,6 +37,7 @@ Run the following commands to download and install the Iono Pi utility:
 
     $ sudo apt-get update
     $ sudo apt-get install git-core 
+    $ cd /usr/local
     $ git clone https://github.com/sfera-labs/iono-pi-c-lib.git 
     $ cd iono-pi-c-lib 
     $ sudo sh build
@@ -71,7 +72,7 @@ If the returned date and time is not correct, or “hwclock” returns an error,
 Then recheck the time stored in the hardware clock to ensure it matches. Linux may have failed to automatically update the hardware clock after the last reboot if its internal registers contained invalid values.
 ## Installing OpenSprinkler
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDM4NDI0Nyw1NDU4MTEyNDcsMTI1OT
-E2MDA4NCwxODc4MzQyOTcwLC03NDcyMzEwNTQsLTEyNTk1ODk1
-MTEsLTEwNzMzNzA1NjUsLTk0MDI0NDNdfQ==
+eyJoaXN0b3J5IjpbNzI5NTY4MjE5LDE5MjQzODQyNDcsNTQ1OD
+ExMjQ3LDEyNTkxNjAwODQsMTg3ODM0Mjk3MCwtNzQ3MjMxMDU0
+LC0xMjU5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
 -->
