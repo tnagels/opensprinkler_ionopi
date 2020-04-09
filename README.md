@@ -79,15 +79,16 @@ Then recheck the time stored in the hardware clock to ensure it matches. Linux m
     This will create a directory in /usr/local called OpenSprinkler.  
     `git clone https://github.com/OpenSprinkler/OpenSprinklerGen2 OpenSprinkler`
 -   Go into the OpenSprinkler directory and build the firmware.  
-    `cd OpenSprinkler  
-    ./build.sh`
+
+cd OpenSprinkler
+sudo ./build.sh
+
 -   The build script will ask if you want to run the software on startup, answer yes. If it compiles ok, you should have an executable `/usr/local/OpenSprinkler/OpenSprinkler` ready to go. Go ahead and run the executable to test it. Press control-C to exit.
 -   Reboot your Pi and OpenSprinkler should be started automatically. You can test with  
     `pgrep OpenSprinkler  
     `If it returns the process id number, then OpenSprinkler was started automatically and is running. If it returns nothing, then something went wrong; check the previous steps.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI3MTI4OTQsMTkyNDM4NDI0Nyw1ND
-U4MTEyNDcsMTI1OTE2MDA4NCwxODc4MzQyOTcwLC03NDcyMzEw
-NTQsLTEyNTk1ODk1MTEsLTEwNzMzNzA1NjUsLTk0MDI0NDNdfQ
-==
+eyJoaXN0b3J5IjpbMTY2MjI3MDU2MywxOTI0Mzg0MjQ3LDU0NT
+gxMTI0NywxMjU5MTYwMDg0LDE4NzgzNDI5NzAsLTc0NzIzMTA1
+NCwtMTI1OTU4OTUxMSwtMTA3MzM3MDU2NSwtOTQwMjQ0M119
 -->
