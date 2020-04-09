@@ -21,7 +21,7 @@ You should enable the SPI interface to use the Iono analog to digital converter,
     $ sudo raspi-config
 
 **This is a good time to change your RPI password, it's the first item in the list for a reason!**
-Then go to “Interfacing Options”, “SPI” and select “yes” to enable the SPI interface, and enable SSH for remote access (This is why you must change your password!). Also enable "
+Then go to “Interfacing Options”, “SPI” and select “yes” to enable the SPI interface, and enable SSH for remote access (This is why you must change your password!). Also enable "I2C", we will need it later.
 Also enable 1-Wire if you need it, or be sure it is disabled if you want to use TTL1 for other purposes. Exit the tool and choose to reboot your RPI when prompted.
 
 Run the following commands to download and install the Iono Pi utility: 
@@ -37,6 +37,6 @@ You can run the `iono` command without oprtions to see what tools are available.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTg0NDU3MSwtNzQ3MjMxMDU0LC0xMj
-U5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
+eyJoaXN0b3J5IjpbMjQwODcxNDQsLTc0NzIzMTA1NCwtMTI1OT
+U4OTUxMSwtMTA3MzM3MDU2NSwtOTQwMjQ0M119
 -->
