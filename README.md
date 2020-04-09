@@ -48,12 +48,15 @@ With these prerequisite installs completed, you should download and run Iono Piâ
     $ chmod 755 rtc-install 
     $ sudo ./rtc-install 
 
-If the script completes with no errors, delete the installation script and reboot: $ rm rtc-install $ sudo reboot
+If the script completes with no errors, delete the installation script and reboot: 
 
+    $ rm rtc-install 
+    $ sudo reboot
+Now the RPI will reboot and the RTC should be active. 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc3NTQzMDEsLTc0NzIzMTA1NCwtMT
-I1OTU4OTUxMSwtMTA3MzM3MDU2NSwtOTQwMjQ0M119
+eyJoaXN0b3J5IjpbLTYxNDQxMTY1NywtNzQ3MjMxMDU0LC0xMj
+U5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
 -->
