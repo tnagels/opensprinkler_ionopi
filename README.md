@@ -53,6 +53,7 @@ If the script completes with no errors, delete the installation script and reboo
 
     $ rm rtc-install 
     $ sudo reboot
+    
 Now the RPI will reboot and the RTC should be active. Assuming you are connected to the Internet and your Pi was able to reach a public NTP (Network Time Protocol) server, you should see the current date and time using the `date` command: 
 Also check the date and time stored in the hardware clock: 
 
@@ -64,10 +65,7 @@ If the returned date and time is not correct, or “hwclock” returns an error,
 
 Then recheck the time stored in the hardware clock to ensure it matches. Linux may have failed to automatically update the hardware clock after the last reboot if its internal registers contained invalid values.
 
-
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDgzMTkwNywtNzQ3MjMxMDU0LC0xMj
+eyJoaXN0b3J5IjpbMTg1Njk0MjA1OSwtNzQ3MjMxMDU0LC0xMj
 U5NTg5NTExLC0xMDczMzcwNTY1LC05NDAyNDQzXX0=
 -->
